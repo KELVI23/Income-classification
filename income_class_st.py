@@ -8,7 +8,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
-from secret import access_key, secret_access_key
+from secrets import access_key, secret_access_key
 import joblib
 import streamlit as st
 import boto3
